@@ -1,10 +1,24 @@
-import { RiCalendarTodoLine } from 'react-icons/ri'
-const AddTask = () => {
-  return (
-    <button className="btn btn-primary w-full">Add task here 
-    <RiCalendarTodoLine className='ml-2' size={18} />
-    </button>
-  )
-}
+'use client'  
+import { RiCalendarTodoLine } from "react-icons/ri";
+import Modal from "./Modal";
+import { useState } from "react";
 
-export default AddTask
+
+const AddTask = () => {
+
+  const [modalOpen, setModalOpen] = useState<boolean>(false)
+
+  return (
+    <div>
+      <button onClick={() => setModalOpen(true)} 
+      className="btn btn-primary w-full">
+        Add task here
+        <RiCalendarTodoLine className="ml-2" size={18} />
+      </button>
+
+      <Modal modalOpen={modalOpen} setModalOpen={setModalOpen}/> 
+    </div>
+  );
+};
+
+export default AddTask;
