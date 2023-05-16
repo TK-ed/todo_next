@@ -1,7 +1,7 @@
 import { ITask } from "@/types/tasks";
 
 interface TaskProps {
-  task: ITask
+  task: ITask;
 }
 
 const Task: React.FC<TaskProps> = ({ task }) => {
@@ -9,7 +9,7 @@ const Task: React.FC<TaskProps> = ({ task }) => {
     <tr key={task.id}>
       <td>{task.text}</td>
       <td>Blue</td>
-    </tr> 
+    </tr>
   );
 };
 
