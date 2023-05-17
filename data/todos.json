@@ -1,28 +1,12 @@
 {
   "task": [
     {
-      "id": "1",
-      "text": "Learn Nextjs"
+      "id": "068c175d-5ee1-4491-b2cf-6f61344efa51",
+      "text": "get domli"
     },
     {
-      "id": "2",
-      "text": "Learn Reactjs"
-    },
-    {
-      "id": "3",
-      "text": "edit todo"
-    },
-    {
-      "id": "4",
-      "text": "Learn ssr in react"
-    },
-    {
-      "id": "5",
-      "text": "get a domli"
-    },
-    {
-      "id": "3fb192ed-0245-4b06-9e71-493082f11343",
-      "text": "become full-stack developer"
+      "id": "e6e8613b-0ba1-4122-a5d3-11879f0973b9",
+      "text": "learn next and react "
     }
   ]
 }
