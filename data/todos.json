@@ -10,11 +10,19 @@
     },
     {
       "id": "3",
-      "text": "add todo"
+      "text": "edit todo"
     },
     {
       "id": "4",
       "text": "Learn ssr in react"
+    },
+    {
+      "id": "5",
+      "text": "get a domli"
+    },
+    {
+      "id": "3fb192ed-0245-4b06-9e71-493082f11343",
+      "text": "become full-stack developer"
     }
   ]
 }
